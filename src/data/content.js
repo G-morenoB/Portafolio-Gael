@@ -13,7 +13,7 @@ export const profile = {
   email: 'ubaldogaelcein@gmail.com',
   linkedin: '#',
   github: '#',
-  photo: '',                   // ej. '/foto.jpg' (archivo dentro de /public)
+  photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792453687/image0.jpg',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
     'Soy Ubaldo',
     'Licenciado en Ciencias de la Computación (BUAP) y desarrollador web con experiencia en proyectos freelance y personales.',
@@ -23,7 +23,7 @@ export const profile = {
 }
 
 export const projects = [
-  { name: 'Proyecto 1', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'React · Next.js', url: '#', images: [] },
+  { name: 'MAGIC IDEAS', description: 'Tienda online de desayunos sopresa en CDMX', role: 'Desarrollador web', period: '[2026]', stack: 'Wordpress · WooCommerce · PHP · CSS', url: 'https://magicideascdmx.com/', images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG3.png'] },
   { name: 'Proyecto 2', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'WordPress · WooCommerce', url: '#', images: [] },
   { name: 'Proyecto 3', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'PHP · JavaScript', url: '#', images: [] },
   { name: 'Proyecto 4', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: '[Tecnologías]', url: '#', images: [] },
