@@ -24,7 +24,7 @@ export const profile = {
 
 export const projects = [
   { name: 'MAGIC IDEAS', description: 'Tienda online de desayunos sopresa en CDMX', role: 'Desarrollador web', period: '[2026]', stack: 'Wordpress · WooCommerce · PHP · CSS', url: 'https://magicideascdmx.com/', images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG3.png'] },
-  { name: 'Nutrición', description: 'Página web responsive para nutriólogo desarrollada con React.', role: 'Desarrollador web', period: '2025', stack: 'React · CSS · HTML', url: 'https://gaelbataz-portfolio-web.vercel.app/', images: [] },
+  { name: 'Nutrición', description: 'Página web responsive para nutriólogo desarrollada con React.', role: 'Desarrollador web', period: '2025', stack: 'React · CSS · HTML', url: 'https://nestorguinto-nutricion.vercel.app/', images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792455898/IMG4.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792455911/IMG6.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792455911/IMG5.png'] },
   { name: 'Proyecto 3', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'PHP · JavaScript', url: '#', images: [] },
   { name: 'Proyecto 4', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: '[Tecnologías]', url: '#', images: [] },
 ]
