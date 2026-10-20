@@ -2,7 +2,7 @@
 
 export const profile = {
   name: 'Ubaldo Gael Moreno Bataz',
-  shortName: 'Ubaldo Moreno',
+  shortName: 'Gael Bataz',
   role: 'Desarrollador web',
   topLabel: '“Sitio web”',
   heroText: 'Desarrollador Web',
@@ -15,7 +15,7 @@ export const profile = {
   github: '#',
   photo: 'https://res.cloudinary.com/duytqng6m/image/upload/v1792453687/image0.jpg',                   // ej. '/foto.jpg' (archivo dentro de /public)
   bio: [
-    'Soy Ubaldo',
+    'Soy Gael',
     'Licenciado en Ciencias de la Computación (BUAP) y desarrollador web con experiencia en proyectos freelance y personales.',
     'Trabajo con React, Next.js, JavaScript, PHP, WordPress y WooCommerce, desarrollando sitios web, tiendas online y aplicaciones responsive.',
     'Me enfoco en crear soluciones funcionales, eficientes y adaptadas a las necesidades de cada proyecto.',
@@ -24,7 +24,7 @@ export const profile = {
 
 export const projects = [
   { name: 'MAGIC IDEAS', description: 'Tienda online de desayunos sopresa en CDMX', role: 'Desarrollador web', period: '[2026]', stack: 'Wordpress · WooCommerce · PHP · CSS', url: 'https://magicideascdmx.com/', images: ['https://res.cloudinary.com/duytqng6m/image/upload/v1792453794/IMG1.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG2.png','https://res.cloudinary.com/duytqng6m/image/upload/v1792453779/IMG3.png'] },
-  { name: 'Proyecto 2', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'WordPress · WooCommerce', url: '#', images: [] },
+  { name: 'Nutrición', description: 'Página web responsive para nutriólogo desarrollada con React.', role: 'Desarrollador web', period: '2025', stack: 'React · CSS · HTML', url: 'https://gaelbataz-portfolio-web.vercel.app/', images: [] },
   { name: 'Proyecto 3', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: 'PHP · JavaScript', url: '#', images: [] },
   { name: 'Proyecto 4', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: '[Tecnologías]', url: '#', images: [] },
 ]
