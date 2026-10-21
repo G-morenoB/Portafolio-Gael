@@ -151,3 +151,5 @@ img{max-width:100%}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{transition:none!important;animation:none!important}
 }
+.chips span{display:inline-flex;align-items:center;gap:10px}
+.chips img{width: 40px;;height: 40px;flex:none;background:#efefef;border-radius:6px;padding:3px}

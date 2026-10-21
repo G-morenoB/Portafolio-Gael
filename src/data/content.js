@@ -29,10 +29,31 @@ export const projects = [
   { name: 'Proyecto 4', description: '[Descripción breve del proyecto]', role: 'Desarrollador web', period: '[Año]', stack: '[Tecnologías]', url: '#', images: [] },
 ]
 
+const dev = (n) => `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${n}/${n}-original.svg`
+
 export const techGroups = [
-  { title: 'Interfaces web', items: ['React', 'Next.js', 'JavaScript'] },
-  { title: 'Servidor', items: ['PHP'] },
-  { title: 'Sitios y tiendas', items: ['WordPress', 'WooCommerce'] },
+  { title: 'Frontend', items: [
+    { name: 'Tailwind CSS', icon: dev('tailwindcss') },
+    { name: 'Next.js', icon: dev('nextjs') },
+    { name: 'JavaScript', icon: dev('javascript') },  
+    { name: 'CSS 3', icon: dev('css3') },
+    { name: 'HTML 5', icon: dev('html5') },
+    { name: 'React', icon: dev('react') },
+    ]},
+  { title: 'Backend', items: [
+    { name: 'PHP', icon: dev('php') },
+    { name: 'Node.js', icon: dev('nodejs') },
+    { name: 'MySQL', icon: dev('mysql') },
+    { name: 'Supabase', icon: dev('supabase') },
+  ]},
+  { title: 'Herramientas', items: [
+    { name: 'WordPress', icon: dev('wordpress') },
+    { name: 'WooCommerce', icon: dev('woocommerce') },
+    { name: 'Git', icon: dev('git') },
+    { name: 'GitHub', icon: dev('github') },
+    { name: 'Figma', icon: dev('figma') },
+    { name: 'VS Code', icon: dev('vscode') },
+  ]},
 ]
 
 // Carpetas de la pila: proyectos + la carpeta de tecnologías (al final)
